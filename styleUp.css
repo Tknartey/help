@@ -169,7 +169,7 @@
         rgba(77, 150, 169, 0.9),
         rgba(77, 150, 169, 0.9)
       ),
-      url(meet-landing-page\starter-code\assets\mobile\image-footer.jpg);
+      url(ImageAsset\starter-code\assets\mobile\image-footer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,7 +214,7 @@
           rgba(77, 150, 169, 0.9),
           rgba(77, 150, 169, 0.9)
         ),
-        url(meet-landing-page\starter-code\assets\tablet\image-footer.jpg);
+        url(ImageAsset\starter-code\assets\tablet\image-footer.jpg);
     }
   
     footer p {
@@ -280,7 +280,7 @@
           rgba(77, 150, 169, 0.9),
           rgba(77, 150, 169, 0.9)
         ),
-        url(meet-landing-page\starter-code\assets\desktop\image-footer.jpg);
+        url(ImageAsset\starter-code\assets\desktop\image-footer.jpg);
     }
   
     footer .container{
