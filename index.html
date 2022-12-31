@@ -1,96 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="icon" type="image/png" sizes="32x32" href="ImageAsset\starter-code\assets\favicon-32x32.png"/>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="styleUp.css" />
-
-    <title> Meet landing page </title>
-  </head>
-  <body>
-    <div class="logo">
-        <img src="ImageAsset\starter-code\assets\logo.svg" alt="log0">
-    </div>
-    <div class="meet_mobile">
-      <div class="wrapper">
-        <img src="ImageAsset\starter-code\assets\tablet\image-hero.png" alt="hero-image" class="meet_mobile"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="ImageAsset\starter-code\assets\favicon-32x32.png">
+  <link rel="stylesheet" href="styleUp.css">
+  <title> Meet landing page</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="logo">
+        <img src="ImageAsset\starter-code\assets\logo.svg" alt="meet logo">
       </div>
-    </div>
-    <div class="desktop_group">
-      <div class="meet_desktop">
-        <div class="wrapper">
-          <img src="ImageAsset\starter-code\assets\desktop\image-hero-left.png" alt="hero-image" class="hero left"/>
+      <div class="introduction">
+        <div class="introduction__image-1">
+          <img src="ImageAsset\starter-code\assets\desktop\image-hero-left.png" class="introduction__image-1--desktop" alt="">
+         <img src="ImageAsset\starter-code\assets\tablet\image-hero.png" class="introduction__image-1--tablet" alt=""> 
         </div>
-    </div>
-    <div class="container desktop_container">
-      <h1>Group Chat for Everyone</h1>
-      <p class="no_margin">
-        Meet makes it easy to connect with others face-to-face virtually and
-        collaborate across any device.
-      </p>
-      <div class="buttons">
-        <button class="button1">Download <span class="version1">v1.3</span></button>
-        <button class="button2">What is it?</button>
+         
+        <div class="introduction__text">
+          <h1>Group Chat for Everyone</h1>
+          <p class="introduction__paragraph">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <div class="introduction__buttons">
+            <button type="button" class="btn btn--primary btn__download">Download <span>v1.3</span></button>
+            <button type="button" class="btn btn--secondary">What is it?</button>
+          </div>
+        </div>
+       <div class="introduction__image-2">
+          <img src="ImageAsset\starter-code\assets\desktop\image-hero-right.png" alt="">
+        </div>
       </div>
-    </div>
-    <div class="meet_desktop">
-      <div class="wrapper">
-        <img src="ImageAsset\starter-code\assets\desktop\image-hero-right.png" alt="hero image" class="hero right"/>
+    </header>
+
+    <section class="features">
+      <div class="section__number-container">
+        <div class="section__line"></div>
+        <div class="section__circle">
+          <div class="section__number">01</div>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="number_container">
-      <span class="line"></span>
-      <span class="number">01</span>
-    </div>
-    <div class="container image_section">
-      <div class="image">
-        <img src="ImageAsset\starter-code\assets\desktop\image-woman-in-videocall.jpg" alt="woman in videocall"/>
+      <div class="features__photos">
+        <div class="photo-set">
+          <div class="photo-set__a">
+            <img src="ImageAsset\starter-code\assets\desktop\image-woman-in-videocall.jpg" class="photo-set__image" alt="woman on video call">
+            <img src="ImageAsset\starter-code\assets\desktop\image-women-videochatting.jpg" class="photo-set__image" alt="women video chatting">
+          </div>
+          <div class="photo-set__b">
+            <img src="ImageAsset\starter-code\assets\desktop\image-men-in-meeting.jpg" class="photo-set__image" alt="men in online meeting">
+            <img src="ImageAsset\starter-code\assets\desktop\image-man-texting.jpg" class="photo-set__image" alt="man texting">
+          </div>
+        </div>
       </div>
-      <div class="image">
-        <img src="ImageAsset\starter-code\assets\desktop\image-women-videochatting.jpg" alt="women videochatting"/>
+      <div class="features__text-container">
+        <div class="features__text">
+          <div class="features__text--sub-head">Built for modern use</div>
+          <h2 class="features__text--heading">Smarter meetings, all in one place</h2>
+          <p class="features__text--paragraph">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        </div>
       </div>
-      <div class="image">
-        <img src="ImageAsset\starter-code\assets\desktop\image-men-in-meeting.jpg" alt="men in meeting"/>
-      </div>
-      <div class="image">
-        <img class="col" src="ImageAsset\starter-code\assets\desktop\image-man-texting.jpg" alt="man texting"/>
-      </div>
-    </div>
-    <div class="container desktop_container">
-      <span class="overline">Built for modern use</span>
-      <h2>Smarter meetings, all in one place</h2>
-      <p class="no_margin desktop_text">
-        Send messages, share files, show your screen, and record your meetings —
-        all in one workspace. Control who can join with invite-only team access,
-        data encryption, and data export.
-      </p>
-    </div>
-    <div class="container number_container overlap">
-      <span class="line"></span>
-      <span class="number">02</span>
-    </div>
+    </section>
+
     <footer>
-      <div class="container">
-        
-      <h2 class="no_margin footer_heading">Experience more together</h2>
-        
-      <p>
-          Stay connected with reliable HD meetings and unlimited one-on-one and
-          group video sessions.
-        </p>
-        <div class="buttons">
-          <button class="button3">Download <span class="version2">v1.3</span></button>
-          
+      <div class="section__number-container">
+        <div class="section__line"></div>
+        <div class="section__circle">
+          <div class="section__number">02</div>
         </div>
       </div>
-      
+      <div class="footer-content__background">
+
+        <div class="footer-content__text">
+          <div>
+            <h2>Experience more together</h2>
+          </div>
+          <div>
+            <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+            </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn--secondary">Download <span>v1.3</span></button>
+          </div>
+        </div>
+      </div>
     </footer>
-  </body>
+  </main>
+</body>
 </html>
