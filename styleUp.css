@@ -62,7 +62,7 @@ h2{
 }
 .introduction__image-1{
   flex-basis: 30%;
-  overflow:hidden;
+  overflow: hidden;
   position: relative;
 } 
  .introduction__image-1--tablet{
@@ -241,8 +241,13 @@ footer {
   display: flex;
   flex-direction: row; 
   justify-content: space-evenly;
-   align-items: center;
-} /**/
+  align-items: center;
+
+} 
+#shift{
+left: 68px;
+}
+/**/
  .footer-content__text div{
   flex-basis: 25%;
 }
@@ -252,12 +257,13 @@ footer {
 .footer-content__text p {
   color: var(--color-white);
 }
+
 .btn--secondary span {
   color: var(--color-lavender);
 }  
 
 /* media queries */
-
+/* tablet */
 @media only screen and (max-width: 820px) {
   h1 {
     font-size: 4.8rem;
@@ -328,7 +334,7 @@ footer {
     padding-top: 55px;
   }
 }
-
+/* tablet/ mobile */
 @media only screen and (max-width: 620px) {
   .introduction__text {
     margin: 67px 70px 0px 70px;
